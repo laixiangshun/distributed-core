@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common-redis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common-redis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common-zookeeper" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common-zookeeper/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lock-aop" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lock-aop/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lock-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lock-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lock-core-starter" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lock-core-starter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lock-local" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lock-local/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lock-redis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lock-redis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lock-zookeeper" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lock-zookeeper/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/matrix-aop" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/matrix-aop/src/main/java" charset="UTF-8" />
+  </component>
+</project>

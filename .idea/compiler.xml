@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="lock-local" />
+        <module name="common-redis" />
+        <module name="common-zookeeper" />
+        <module name="lock-aop" />
+        <module name="lock-core-starter" />
+        <module name="lock-redis" />
+        <module name="lock-common" />
+        <module name="matrix-aop" />
+        <module name="lock-zookeeper" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="common-redis" options="-parameters" />
+      <module name="common-zookeeper" options="-parameters" />
+      <module name="lock-aop" options="-parameters" />
+      <module name="lock-common" options="-parameters" />
+      <module name="lock-core-starter" options="-parameters" />
+      <module name="lock-local" options="-parameters" />
+      <module name="lock-redis" options="-parameters" />
+      <module name="lock-zookeeper" options="-parameters" />
+      <module name="matrix-aop" options="-parameters" />
+    </option>
+  </component>
+</project>

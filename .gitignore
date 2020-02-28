@@ -1,0 +1,10 @@
+# Project exclude paths
+/common-redis/target/
+/common-zookeeper/target/
+/lock-aop/target/
+/lock-common/target/
+/lock-core-starter/target/
+/lock-local/target/
+/lock-redis/target/
+/lock-zookeeper/target/
+/matrix-aop/target/

@@ -1,0 +1,2 @@
+com.htwz.annotation.EnableLock=\
+com.htwz.configuration.LockConfiguration
