@@ -7,12 +7,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="lock-local" />
+        <module name="lock-redis" />
         <module name="common-redis" />
         <module name="common-zookeeper" />
         <module name="lock-aop" />
         <module name="lock-core-starter" />
-        <module name="lock-redis" />
+        <module name="lock-local" />
         <module name="lock-common" />
         <module name="matrix-aop" />
         <module name="lock-zookeeper" />

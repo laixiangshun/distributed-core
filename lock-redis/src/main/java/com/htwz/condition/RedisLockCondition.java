@@ -1,7 +1,5 @@
 package com.htwz.condition;
 
-
-
 import com.htwz.constant.LockConstant;
 
 public class RedisLockCondition extends AquariusCondition {
