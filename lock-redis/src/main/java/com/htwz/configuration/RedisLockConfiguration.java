@@ -71,12 +71,12 @@ public class RedisLockConfiguration {
                 .connectionPoolSize(redisProperties.getJedis().getPool().getMaxIdle())
                 .database(redisProperties.getDatabase())
                 .password(redisProperties.getPassword())
-                .timeout(Math.toIntExact(redisProperties.getTimeout().getSeconds()));
+                .timeout(Math.toIntExact(redisProperties.getTimeout().toMillis()));
         if (StrUtil.isNotBlank(yamlConfigPath)) {
             builder.path(yamlConfigPath);
-        } else {
-            builder.type(RedissonTypeEnum.stand_alone.getName());
         }
+
+        builder.type(RedissonTypeEnum.stand_alone.getName());
 
         RedisProperties.Sentinel sentinel = redisProperties.getSentinel();
         if (ObjectUtil.isNotNull(sentinel)) {
